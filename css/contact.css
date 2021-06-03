@@ -1,0 +1,68 @@
+.c-container
+{
+    display: grid ;
+    grid-template-columns: repeat(3 ,1fr) ; 
+    grid-gap: 20px ;
+    margin: 100px 0; 
+}
+.phone
+{
+    padding: 50px 25px ; 
+    background-color: burlywood ;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(51 51 51 / 12%) 0px 0px 16px;
+    border-radius: 10px ; 
+    text-align:left ;
+}
+.phone li ,
+.address li ,
+.mail li
+{
+    margin-left: -30px 
+}
+img
+{
+    margin: 35px 0 ; 
+}
+h5
+{
+    font-weight: 600 ; 
+    font-size: 20px ;  
+}
+ p
+{
+    font-size: 14px ; 
+    color: var(--pcolor)
+}
+.phone li a ,
+.phone li i
+{
+    color:black ; 
+}
+.mail ,
+.address
+{
+    padding: 50px 25px ; 
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(51 51 51 / 12%) 0px 0px 16px;
+    border-radius: 10px ; 
+    text-align:left ;
+}
+.m-add
+{
+    font-size: 16px ; 
+    color: black;
+    
+}
+.address ul li
+{
+   padding: 1px 0  
+}
+@media(max-width:767px)
+{
+    .c-container
+    {
+        display: grid ; 
+        grid-template-columns: repeat(1,1fr) ; 
+    }
+}
